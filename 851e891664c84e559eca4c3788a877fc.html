@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>bcdd537c0a20489c98a1227c77d2bf30</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell markdown" id="LU2otHBjzLvb">
+<p><img
+src="data:image/png;base64,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"
+alt="weblogo.png" /></p>
+</div>
+<section id="-parte-1-limpieza" class="cell markdown" id="f__eEO-8j3XS">
+<h2># <strong>PARTE 1 LIMPIEZA</strong></h2>
+</section>
+<section id="-limpieza-de-datos-con-python" class="cell markdown"
+id="4iUU_pFL7-fG">
+<h2># <strong>LIMPIEZA DE DATOS CON PYTHON</strong></h2>
+</section>
+<div class="cell markdown" id="zrT4mjYK8DUr">
+<p>Importamos los paquetes que vamos a usar</p>
+</div>
+<div class="cell code" id="hvmvdGwpimjy">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.impute <span class="im">import</span>  SimpleImputer</span></code></pre></div>
+</div>
+<div class="cell markdown" id="m0Guktu78tHK">
+<p>Cargamos los datos</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:547,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726708263390,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="EDQuD0R68u6g" data-outputId="2f6cf67a-2c97-49c9-95ce-6ccbcb5cab89">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">&#39;https://raw.githubusercontent.com/hmedrano1979/ITC/main/train.csv&#39;</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>data<span class="op">=</span>pd.read_csv(url)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Datos desde la URL cargados con éxito.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Datos desde la URL cargados con éxito.
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="uNUgtO9I9OuZ">
+<p>Recordemos algunos métodos útiles de los dataframe de pandas</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:206}"
+data-executionInfo="{&quot;elapsed&quot;:820,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726708267261,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="L4ZUjYTG9Btq" data-outputId="e2392318-4cae-4112-cfa7-b3017bc08d0a">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>data.head()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+
+  <div id="df-31773dcf-eb12-45d6-804b-65739a559239" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Ticket</th>
+      <th>Fare</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>22.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>A/5 21171</td>
+      <td>7.2500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Cumings, Mrs. John Bradley (Florence Briggs Th...</td>
+      <td>female</td>
+      <td>38.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>PC 17599</td>
+      <td>71.2833</td>
+      <td>C85</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>1</td>
+      <td>3</td>
+      <td>Heikkinen, Miss. Laina</td>
+      <td>female</td>
+      <td>26.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>STON/O2. 3101282</td>
+      <td>7.9250</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>1</td>
+      <td>1</td>
+      <td>Futrelle, Mrs. Jacques Heath (Lily May Peel)</td>
+      <td>female</td>
+      <td>35.0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>113803</td>
+      <td>53.1000</td>
+      <td>C123</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>0</td>
+      <td>3</td>
+      <td>Allen, Mr. William Henry</td>
+      <td>male</td>
+      <td>35.0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>373450</td>
+      <td>8.0500</td>
+      <td>NaN</td>
+      <td>S</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-31773dcf-eb12-45d6-804b-65739a559239')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-31773dcf-eb12-45d6-804b-65739a559239 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-31773dcf-eb12-45d6-804b-65739a559239');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-92397cec-c4ea-4635-b41b-de62b8cdad8a">
+  <button class="colab-df-quickchart" onclick="quickchart('df-92397cec-c4ea-4635-b41b-de62b8cdad8a')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-92397cec-c4ea-4635-b41b-de62b8cdad8a button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="PT_n6a2U-CWk">
+<p>Para ver una informacion general sobre los atributos del
+dataframe</p>
+</div>
+<div class="cell markdown" id="BBL7E3KYnBfY">
+<p>Descripción de cada columna:</p>
+<ul>
+<li>Survived : Sobrevivio o no? 0-1</li>
+<li>Pclass : En que clase viajaba</li>
+<li>Name: Nombre del pasajero</li>
+<li>Sex: Es hombre o mujer?</li>
+<li>Age: Edad del pasajero</li>
+<li>SibSp: Número de hermanos/cónyuges a bordo del Titanic</li>
+<li>Parch: Número de padres/hijos a bordo del Titanic</li>
+<li>Ticket: Número de boleto</li>
+<li>Fare: Tarifa del pasajero</li>
+<li>Embarked: Puerto de embarque</li>
+</ul>
+</div>
+<div class="cell markdown" id="KDEaWWa3oBWY">
+<p>Cambiar de nombre de las variables</p>
+</div>
+<div class="cell code" id="M3VVHKoNoEqt">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>data.rename(columns<span class="op">=</span>{<span class="st">&#39;Survived&#39;</span>: <span class="st">&#39;Sobrevivio o no?&#39;</span>}, inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co">#Renombrar múltiples columnas:cambiar varios nombres de columnas al mismo tiempo:</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co">#df.rename(columns={&#39;Survived&#39;: &#39;Sobrevivio o no?&#39;, &#39;Pclass&#39;: &#39;En que clase viajaba&#39;}, inplace=True)</span></span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:338,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726708543154,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="4Y2Hj-d593XC" data-outputId="f5933958-ee3a-4bdc-a57d-705a74c4d7da">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 12 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   PassengerId       891 non-null    int64  
+ 1   Sobrevivio o no?  891 non-null    int64  
+ 2   Pclass            891 non-null    int64  
+ 3   Name              891 non-null    object 
+ 4   Sex               891 non-null    object 
+ 5   Age               714 non-null    float64
+ 6   SibSp             891 non-null    int64  
+ 7   Parch             891 non-null    int64  
+ 8   Ticket            891 non-null    object 
+ 9   Fare              891 non-null    float64
+ 10  Cabin             204 non-null    object 
+ 11  Embarked          889 non-null    object 
+dtypes: float64(2), int64(5), object(5)
+memory usage: 83.7+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="Y5TpoVf1onZK">
+<p>Para cambiar el tipo de dato de una columna</p>
+</div>
+<div class="cell code" id="8l69yPguooM4">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Pclass&#39;</span>]<span class="op">=</span>data[<span class="st">&#39;Pclass&#39;</span>].astype(<span class="bu">str</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+</div>
+<div class="cell code" id="k20ELtpVovxX">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>data[<span class="st">&#39;Pclass&#39;</span>]<span class="op">=</span>data[<span class="st">&#39;Pclass&#39;</span>].astype(<span class="bu">int</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="w_09yP_n-GZa">
+<p>Para obtener una descrpcion estadistica de las columnas numericas</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:300}"
+data-executionInfo="{&quot;elapsed&quot;:322,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726272036951,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="p2esRBbh95_A" data-outputId="4a5a5492-b41b-4d6d-8cba-0caa41ba944b">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>data.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+
+  <div id="df-1e755beb-258d-45a8-a4c1-7bdf8401ef67" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PassengerId</th>
+      <th>Survived</th>
+      <th>Pclass</th>
+      <th>Age</th>
+      <th>SibSp</th>
+      <th>Parch</th>
+      <th>Fare</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>714.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+      <td>891.000000</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>446.000000</td>
+      <td>0.383838</td>
+      <td>2.308642</td>
+      <td>29.699118</td>
+      <td>0.523008</td>
+      <td>0.381594</td>
+      <td>32.204208</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>257.353842</td>
+      <td>0.486592</td>
+      <td>0.836071</td>
+      <td>14.526497</td>
+      <td>1.102743</td>
+      <td>0.806057</td>
+      <td>49.693429</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>1.000000</td>
+      <td>0.420000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>223.500000</td>
+      <td>0.000000</td>
+      <td>2.000000</td>
+      <td>20.125000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>7.910400</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>446.000000</td>
+      <td>0.000000</td>
+      <td>3.000000</td>
+      <td>28.000000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+      <td>14.454200</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>668.500000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>38.000000</td>
+      <td>1.000000</td>
+      <td>0.000000</td>
+      <td>31.000000</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>891.000000</td>
+      <td>1.000000</td>
+      <td>3.000000</td>
+      <td>80.000000</td>
+      <td>8.000000</td>
+      <td>6.000000</td>
+      <td>512.329200</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-1e755beb-258d-45a8-a4c1-7bdf8401ef67')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-1e755beb-258d-45a8-a4c1-7bdf8401ef67 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-1e755beb-258d-45a8-a4c1-7bdf8401ef67');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-da7822f3-fce5-4348-b867-446df22cbf32">
+  <button class="colab-df-quickchart" onclick="quickchart('df-da7822f3-fce5-4348-b867-446df22cbf32')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-da7822f3-fce5-4348-b867-446df22cbf32 button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="PZ9_op_E-MXb">
+<p>Para obtener una descripcion de las categoricas</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:174}"
+data-executionInfo="{&quot;elapsed&quot;:226,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726272040290,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="m4tZVTzL-K0s" data-outputId="eb2e832d-bc72-4162-a95d-520d2d02faad">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>data.describe(include<span class="op">=</span>[<span class="st">&#39;O&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+
+  <div id="df-144c192b-e28a-4960-bef5-61c5bbf7f777" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Ticket</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>891</td>
+      <td>891</td>
+      <td>891</td>
+      <td>204</td>
+      <td>889</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>891</td>
+      <td>2</td>
+      <td>681</td>
+      <td>147</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>347082</td>
+      <td>B96 B98</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>1</td>
+      <td>577</td>
+      <td>7</td>
+      <td>4</td>
+      <td>644</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-144c192b-e28a-4960-bef5-61c5bbf7f777')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-144c192b-e28a-4960-bef5-61c5bbf7f777 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-144c192b-e28a-4960-bef5-61c5bbf7f777');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-fd6e67f1-b425-4449-b091-5ecbdc28173a">
+  <button class="colab-df-quickchart" onclick="quickchart('df-fd6e67f1-b425-4449-b091-5ecbdc28173a')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-fd6e67f1-b425-4449-b091-5ecbdc28173a button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="SvSDtWae-kx-">
+<p>Para ver el tamaño del dataset</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:214,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726272046237,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="JvY8eN_x-RF-" data-outputId="48f47163-01ec-4933-b1fd-9a25be100751">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>data.shape</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>(891, 12)</code></pre>
+</div>
+</div>
+<section id="comprobacion-de-outliers" class="cell markdown"
+id="3qaAk0Bg_9OY">
+<h2><strong>COMPROBACION DE OUTLIERS</strong></h2>
+</section>
+<div class="cell markdown" id="ZcFYsvtLA5Ul">
+<p>De forma visual</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:997}"
+data-executionInfo="{&quot;elapsed&quot;:1832,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726272066555,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="mEoCewNz-nnG" data-outputId="42168cd9-1179-4447-deda-7f9b3d727d8e">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>num_cols<span class="op">=</span>data.select_dtypes(include<span class="op">=</span><span class="st">&#39;number&#39;</span>).columns</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> num_cols:</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>  plt.figure(figsize<span class="op">=</span>(<span class="dv">17</span>,<span class="dv">1</span>))</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>  sns.boxplot(data<span class="op">=</span>data[num_cols], x<span class="op">=</span>col)</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/9cba88f7876f7561617ff6bacb0d3846ea8edc32.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/dee689f977507e42b119db935341e84cc9df6a62.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/84cf5b50b5a43f83cd0b0ff8b232eddd4dcebdd7.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/3409faaeae4f36e1beacb4f9bfea8b26dab2835a.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/cdbc992010e99951975ec8039722c71dec3b6c89.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/6f2df0f86f1678f0f38e28cac77b01b2898b8c82.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/c260fcc36afec550edc806edb1edd4b6187138e5.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="JkzVqahxA7kH">
+<p>Numericamente</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:620,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726711340806,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="A-o5aDM0_QB8" data-outputId="09366a66-c7e9-4c31-e8cb-b8bd1c951f61">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Nº de Outliers usando rango IQR</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>num_cols<span class="op">=</span>data.select_dtypes(include<span class="op">=</span><span class="st">&#39;number&#39;</span>).columns</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>outliers<span class="op">=</span>{}</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> num_cols:</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>  Q1 <span class="op">=</span> np.percentile(data[col], <span class="dv">25</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>  Q3 <span class="op">=</span> np.percentile(data[col], <span class="dv">75</span>)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>  IQR <span class="op">=</span> Q3 <span class="op">-</span> Q1</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>  lower_bound <span class="op">=</span> Q1 <span class="op">-</span> <span class="fl">1.5</span> <span class="op">*</span> IQR</span>
+<span id="cb15-10"><a href="#cb15-10" aria-hidden="true" tabindex="-1"></a>  upper_bound <span class="op">=</span> Q3 <span class="op">+</span> <span class="fl">1.5</span> <span class="op">*</span> IQR</span>
+<span id="cb15-11"><a href="#cb15-11" aria-hidden="true" tabindex="-1"></a>  outliers[col]<span class="op">=</span> (data[col] <span class="op">&gt;</span> upper_bound).<span class="bu">sum</span>() <span class="op">+</span> (data[col]<span class="op">&lt;</span> lower_bound).<span class="bu">sum</span>()</span>
+<span id="cb15-12"><a href="#cb15-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-13"><a href="#cb15-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(outliers)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;PassengerId&#39;: 0, &#39;Sobrevivio o no?&#39;: 0, &#39;Pclass&#39;: 0, &#39;Age&#39;: 0, &#39;SibSp&#39;: 46, &#39;Parch&#39;: 213, &#39;Fare&#39;: 116}
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:240,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726273442395,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="CNKaI1FUbyzx" data-outputId="75921862-b314-44da-b420-cc3caec5746a">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co">#Nº de Outliers usando 3 std</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>outliers<span class="op">=</span>{}</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> num_cols:</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>  mean<span class="op">=</span>data[col].mean()</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>  std<span class="op">=</span>data[col].std()</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  outliers[col] <span class="op">=</span> (data[col] <span class="op">&gt;</span> (mean <span class="op">+</span> <span class="dv">3</span> <span class="op">*</span>std)).<span class="bu">sum</span>() <span class="op">+</span> (data[col] <span class="op">&lt;</span> (mean <span class="op">-</span> <span class="dv">3</span> <span class="op">*</span>std)).<span class="bu">sum</span>()</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(outliers)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;PassengerId&#39;: 0, &#39;Survived&#39;: 0, &#39;Pclass&#39;: 0, &#39;Age&#39;: 2, &#39;SibSp&#39;: 30, &#39;Parch&#39;: 15, &#39;Fare&#39;: 20}
+</code></pre>
+</div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:466}"
+data-executionInfo="{&quot;elapsed&quot;:553,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726711654026,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="mfk934xJq-VT" data-outputId="12807578-7a1d-417f-ac6a-24040d4bb25b">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>sns.histplot(data[<span class="st">&#39;Age&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>&lt;Axes: xlabel=&#39;Age&#39;, ylabel=&#39;Count&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/2d70b98204f59418724d33402cc9217d51c66a24.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="ciiqEEeFcX6U">
+<p>Veamos ahora los diferentes metodos de trabajar con nulos</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:460}"
+data-executionInfo="{&quot;elapsed&quot;:217,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726273530898,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="mZJUvekkBJ9I" data-outputId="f87f7a82-283b-4f90-a738-d977b18e2d1f">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>data.isna().<span class="bu">sum</span>()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="15">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PassengerId</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Survived</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Pclass</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Sex</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>177</td>
+    </tr>
+    <tr>
+      <th>SibSp</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Parch</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Ticket</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Fare</th>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>Cabin</th>
+      <td>687</td>
+    </tr>
+    <tr>
+      <th>Embarked</th>
+      <td>2</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> int64</label>
+</div>
+</div>
+<div class="cell markdown" id="NlNvncAZ7LsT">
+<p>Veamos ahora los diferentes metodos de trabajar con nulos en
+porcentajes %</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:460}"
+data-executionInfo="{&quot;elapsed&quot;:209,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726273586564,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="HVO0eVv27Dq7" data-outputId="b5e79a8b-ac9d-4a96-f10b-16d9ae711d37">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>data.isna().<span class="bu">sum</span>() <span class="op">/</span> <span class="bu">len</span>(data)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>0</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PassengerId</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Survived</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Pclass</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Sex</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>0.198653</td>
+    </tr>
+    <tr>
+      <th>SibSp</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Parch</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Ticket</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Fare</th>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Cabin</th>
+      <td>0.771044</td>
+    </tr>
+    <tr>
+      <th>Embarked</th>
+      <td>0.002245</td>
+    </tr>
+  </tbody>
+</table>
+</div><br><label><b>dtype:</b> float64</label>
+</div>
+</div>
+<div class="cell markdown" id="QKOPAiL9dBL6">
+<p>Eliminando los nulos</p>
+</div>
+<div class="cell code" id="ZL5afGXmattk">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>data.drop(<span class="st">&#39;Cabin&#39;</span>,axis<span class="op">=</span><span class="dv">1</span>,inplace<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+data-executionInfo="{&quot;elapsed&quot;:411,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726712279162,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="qeEtZ8YGslKW" data-outputId="6a770183-49ee-4c3a-b022-77a26eb3ba02">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>data.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 891 entries, 0 to 890
+Data columns (total 11 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   PassengerId       891 non-null    int64  
+ 1   Sobrevivio o no?  891 non-null    int64  
+ 2   Pclass            891 non-null    int64  
+ 3   Name              891 non-null    object 
+ 4   Sex               891 non-null    object 
+ 5   Age               714 non-null    float64
+ 6   SibSp             891 non-null    int64  
+ 7   Parch             891 non-null    int64  
+ 8   Ticket            891 non-null    object 
+ 9   Fare              891 non-null    float64
+ 10  Embarked          889 non-null    object 
+dtypes: float64(2), int64(5), object(4)
+memory usage: 76.7+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="qMP4JSbLdXL-">
+<p>Imputando valores</p>
+</div>
+<div class="cell code"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:466}"
+data-executionInfo="{&quot;elapsed&quot;:560,&quot;status&quot;:&quot;ok&quot;,&quot;timestamp&quot;:1726712319861,&quot;user&quot;:{&quot;displayName&quot;:&quot;Gobierno del dato&quot;,&quot;userId&quot;:&quot;09430983545654012100&quot;},&quot;user_tz&quot;:300}"
+id="ynVbmwOaszHD" data-outputId="983fdd82-4f3c-4fe1-d32d-63458afbbdb3">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>sns.histplot(data[<span class="st">&#39;Age&#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="11">
+<pre><code>&lt;Axes: xlabel=&#39;Age&#39;, ylabel=&#39;Count&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_851e891664c84e559eca4c3788a877fc/2d70b98204f59418724d33402cc9217d51c66a24.png" /></p>
+</div>
+</div>
+</body>
+</html>
